@@ -13,11 +13,11 @@ import Button = require('./MyComponent/Button');
 var Route = ReactRouter.Route;
 var IndexRoute = ReactRouter.IndexRoute;
 
-var routes = (
-    <Route path="/" component = {Button} >
-        <IndexRoute component = {Button} />
-        <Route path="Home" component = {Home} />
-        <Route path="Button" component = {Button} />
-    </Route>
+//var routes = (
+//    <Route path="/" component = {Button} >
+//        <IndexRoute component = {Button} />
+//        <Route path="Home" component = {Home} />
+//        <Route path="Button" component = {Button} />
+//    </Route>
 );
 export = routes;
